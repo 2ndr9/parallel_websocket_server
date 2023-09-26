@@ -2,6 +2,10 @@
 
 run websocket server in parallel (using multiprocessing)
 
+You can run the websocket server as a subprocess while keeping the main process distinct.
+
+You can implement the main process without having to pay attention to the server.
+
 ## Installation
 
 ```bash
